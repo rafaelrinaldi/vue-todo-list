@@ -1,0 +1,31 @@
+{
+  "name": "vue-todo-list",
+  "version": "0.0.0",
+  "authors": [
+    "Codehood Inc."
+  ],
+  "description": "TODO List App Using Vue",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "todo",
+    "vue"
+  ],
+  "license": "WTFPL",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.14",
+    "mout": "~0.9.1",
+    "vue": "~0.10.5",
+    "requirejs-text": "~2.0.12",
+    "jquery": "~2.1.1"
+  }
+}
