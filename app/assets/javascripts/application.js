@@ -8,13 +8,11 @@ require.config({
     // Libraries
     'mout': '../../../vendor/assets/bower/mout/src',
     'vue': '../../../vendor/assets/bower/vue/dist/vue',
-    'jquery-adapter': '../../../vendor/assets/javascripts/jqueryAdapter',
+    'jquery-adapter': '../../../app/assets/javascripts/jqueryAdapter',
     'jquery': '../../../vendor/assets/bower/jquery/dist/jquery',
 
     // Plugins
-    'text': '../../../vendor/assets/bower/requirejs-text/text',
-
-    "lib": "../"
+    'text': '../../../vendor/assets/bower/requirejs-text/text'
   },
 
   map: {

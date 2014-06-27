@@ -1,10 +1,20 @@
 <h1 class="title">Todo list</h1>
 
+<section v-component="todo-input"></section>
+
 <ul class="todo-list">
   <li
-    v-repeat="task: tasks"
-    class="todo-list__item"
-    contenteditable
-  >{{task.title}}</li>
+    v-repeat="tasks"
+    class="todo-list__item {{isChecked ? 'is-checked' : ''}}"
+  >
+  <input
+    class="checkbox"
+    type="checkbox"
+    v-on="click: isChecked = !isChecked"></input>
+
+  <span contenteditable>{{title}}</span>
+
+  <button class="remove-button" v-on="click: removeItem(index)">Remove</button>
+  </li>
 </ul>
 

@@ -30,7 +30,28 @@ li {
 }
 
 .todo-list__item {
+  position: relative;
   font-size: 1.5em;
   margin-top: .75em;
   color: rgba(0, 0, 0, .5);
+}
+
+.todo-list__item.is-checked {
+  text-decoration: line-through;
+  color: #eee;
+}
+
+.add-todo__input {
+  border: 0;
+  width: 100%;
+  height: 3em;
+  font-size: 1.5em;
+  padding-left: .5em;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.remove-button {
+  position: absolute;
+  right: 0;
 }
